@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="new navbar.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+    }
+
+    #myBtn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 30px;
+      z-index: 99;
+      font-size: 18px;
+      border: none;
+      outline: none;
+      background-color: red;
+      color: white;
+      cursor: pointer;
+      padding: 15px;
+      border-radius: 4px;
+    }
+
+    #myBtn:hover {
+      background-color: #555;
+    }
+
+    @media only screen and (max-width: 768px) {
+
+  
+svg text {
+	animation: stroke 5s infinite alternate;
+	stroke-width: 2;
+	stroke: #365FA0;
+	font-size: 10vw;
+  margin-right: 20px;
+}
+      ul {
+        flex-direction: column;
+
+        align-items: center;
+      }
+
+      li {
+        width: 100%;
+
+        border-right: none;
+
+        text-align: center;
+      }
+
+      .dropdown-content {
+    width: 100%; /* Set the width to 100% */
+    left: 0; /* Reset the left position */
+    right: 0; /* Reset the right position */
+    text-align: center; 
+
+      }
+
+      .dropdown-content a {
+        padding: 10px;
+        display: block;
+
+      }
+
+      .gallery {
+        width: 100%;
+
+
+        height: auto;
+
+      }
+
+      .column {
+        width: 25%;
+
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div style="display: flex; align-items: center; background: linear-gradient(to right,#0000ff, #ff0000 );
+  ">
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <img src="image/Screenshot_2024-03-02_232827-removebg.png" alt="logo" style="height: 100px; width: 250px;">
+    <div class="wrapper">
+      <svg>
+        <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+          Sports Cars
+        </text>
+      </svg>
+    </div>
+  </div>
+
+  <ul style="margin-bottom: 0px;">
+    <li><a class="active" href="index.html">Home</a></li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn1">Off Roads</a>
+      <div class="dropdown-content">
+        <a href="#">Land Cruiser</a>
+        <a href="#">Mercedes-Benz G-Class</a>
+        <a href="#">Lexus LX600</a>
+        <a href="#">Range Rover</a>
+        <a href="#">Ford Ranger</a>
+        <a href="#">Toyota Fortuner</a>
+      </div>
+    </li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Brands</a>
+      <div class="dropdown-content">
+        <a href="page 2/new navbar.html">Lamborghini</a>
+        <a href="#">RollS Royce</a>
+        <a href="#">Ferrari</a>
+        <a href="#">Bugatti</a>
+        <a href="#">Mercedes</a>
+        <a href="#">Nissan</a>
+      </div>
+    </li>
+    <li><a href="gallary/Gallary.html">Gallery</a></li>
+    <li class="dropdown" style="float: right;">
+      <a href="javascript.void(0)" class="dropbtn" style="margin-right: 25px;">About</a>
+      <div class="dropdown-content">
+        <a href="contact us css/Contact Us.html">Contact Us</a>
+      </div>
+    </li>
+    <li style="float: right;"><a href="#news">Services</a></li>
+  </ul>
+  <div>
+
+
+
+
+    <div class="row" style="background: linear-gradient(135deg, #000000, #ff0000, #00ff00, #0000ff);
+  ">
+      <div class="column">
+        <div class="image"><img class="gallery"
+            src="Car images/Lamborghini/abdulla-al-rokhaimi-pRlbr85Jvqw-unsplash.jpg" style="width:100%;">
+          <div class="image-content"><img class="gallery"
+              src="Car images/Lamborghini/abdulla-al-rokhaimi-pRlbr85Jvqw-unsplash.jpg"
+              style="width:500px; height: 800px;">
+            <div class="desc">Lamborghini</div>
+          </div>
+        </div>
+        <div class="image"><img class="gallery" src="Car images/Lamborghini/daniel-lincoln-JxbvdKB6_3g-unsplash.jpg"
+            style="width:100%;">
+          <div class="image-content"><img class="gallery"
+              src="Car images/Lamborghini/daniel-lincoln-JxbvdKB6_3g-unsplash.jpg" style="width:500px; height: 800px;">
+            <div class="desc">Lamborghini</div>
+          </div>
+        </div>
+        <div class="image"><img class="gallery" src="Car images/Lamborghini/krish-parmar-I70_S2OkWM4-unsplash.jpg"
+            style="width:100%;">
+          <div class="image-content"><img class="gallery"
+              src="Car images/Lamborghini/krish-parmar-I70_S2OkWM4-unsplash.jpg" style="width:500px; height: 800px;">
+            <div class="desc">Lamborghini</div>
+          </div>
+        </div>
+        <div class="image"><img class="gallery" src="Car images/Lamborghini/reinhart-julian-VsXHzSdwuik-unsplash.jpg"
+            style="width:100%;">
+          <div class="image-content"><img class="gallery"
+              src="Car images/Lamborghini/reinhart-julian-VsXHzSdwuik-unsplash.jpg" style="width:500px; height: 800px;">
+            <div class="desc">Lamborghini</div>
+          </div>
+        </div>
+        <div class="image"><img class="gallery"
+            src="Car images/Lamborghini/sam-pearce-warrilow-OoPs1OSwE0M-unsplash.jpg" style="width:100%;">
+          <div class="image-content"><img class="gallery"
+              src="Car images/Lamborghini/sam-pearce-warrilow-OoPs1OSwE0M-unsplash.jpg"
+              style="width:500px; height: 800px;">
+            <div class="desc">Lamborghini</div>
+          </div>
+        </div>
+        <div class="image"><img class="gallery" src="Car images/Lamborghini/krish-parmar-I70_S2OkWM4-unsplash.jpg"
+            style="width:100%;">
+          <div class="image-content"><img class="gallery"
+              src="Car images/Lamborghini/krish-parmar-I70_S2OkWM4-unsplash.jpg" style="width:500px; height: 800px;">
+            <div class="desc">Lamborghini</div>
+          </div>
+        </div>
+        <div class="image"><img class="gallery" src="Car images/marcedes/alex_rainer-bjjuwMXgwys-unsplash.jpg"
+            style="width:100%;">
+          <div class="image-content"><img class="gallery" src="Car images/marcedes/alex_rainer-bjjuwMXgwys-unsplash.jpg"
+              style="width:500px; height: 800px;">
+            <div class="desc">Lamborghini</div>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="image"><img class="gallery" src="Car images/marcedes/dima-panyukov-DwxlhTvC16Q-unsplash.jpg"
+            style="width:100%;">
+          <div class="image-content"><img class="gallery"
+              src="Car images/marcedes/dima-panyukov-DwxlhTvC16Q-unsplash.jpg" style="width:500px; height: 800px;">
+            <div class="desc">Lamborghini</div>
+          </div>
+        </div>
+
+        <div class="image"><img class="gallery" src="Car images/marcedes/dima-panyukov-DwxlhTvC16Q-unsplash.jpg"
+            style="width:100%;">
+          <div class="image-content"><img class="gallery"
+              src="Car images/marcedes/dima-panyukov-DwxlhTvC16Q-unsplash.jpg" style="width:500px; height: 800px;">
+            <div class="desc">Lamborghini</div>
+          </div>
+        </div>
+
+        <div class="image"><img class="gallery" src="Car images/marcedes/flavien-6i1gLJb4YNE-unsplash.jpg"
+            style="width:100%;">
+          <div class="image-content"><img class="gallery" src="Car images/marcedes/flavien-6i1gLJb4YNE-unsplash.jpg"
+              style="width:500px; height: 800px;">
+            <div class="desc">Lamborghini</div>
+          </div>
+        </div>
+
+        <div class="image"><img class="gallery" src="Car images/marcedes/flavien-mSC5P8M14BM-unsplash.jpg"
+            style="width:100%;">
+          <div class="image-content"><img class="gallery" src="Car images/marcedes/flavien-mSC5P8M14BM-unsplash.jpg"
+              style="width:500px; height: 800px;">
+            <div class="desc">Lamborghini</div>
+          </div>
+        </div>
+
+        <div class="image"><img class="gallery" src="Car images/marcedes/theo-malliacas-ocqEyMnshgw-unsplash.jpg"
+            style="width:100%;">
+          <div class="image-content"><img class="gallery"
+              src="Car images/marcedes/theo-malliacas-ocqEyMnshgw-unsplash.jpg" style="width:500px; height: 800px;">
+            <div class="desc">Lamborghini</div>
+          </div>
+        </div>
+
+        <div class="image"><img class="gallery" src="Car images/marcedes/flavien-6i1gLJb4YNE-unsplash.jpg"
+            style="width:100%;">
+          <div class="image-content"><img class="gallery" src="Car images/marcedes/flavien-6i1gLJb4YNE-unsplash.jpg"
+              style="width:500px; height: 800px;">
+            <div class="desc">Lamborghini</div>
+          </div>
+        </div>
+        <div class="image"><img class="gallery" src="mix images/roland-denes-EWf48MRVUNE-unsplash.jpg"
+            style="width:100%;">
+          <div class="image-content"><img class="gallery" src="mix images/roland-denes-EWf48MRVUNE-unsplash.jpg"
+              style="width:500px; height: 800px;">
+            <div class="desc">Lamborghini</div>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="column">
+        <div class="image"><img class="gallery" src="mix images/ben-weber-7lGiQDLnkUs-unsplash.jpg" style="width:100%;">
+          <div class="image-content"><img class="gallery" src="mix images/ben-weber-7lGiQDLnkUs-unsplash.jpg"
+              style="width:500px; height: 800px;">
+            <div class="desc">Lamborghini</div>
+          </div>
+        </div>
+
+        <div class="image"><img class="gallery" src="mix images/brandon-green-F_KScPBU93I-unsplash.jpg"
+            style="width:100%;">
+          <div class="image-content"><img class="gallery" src="mix images/brandon-green-F_KScPBU93I-unsplash.jpg"
+              style="width:500px; height: 800px;">
+            <div class="desc">Lamborghini</div>
+          </div>
+        </div>
+
+        <div class="image"><img class="gallery" src="mix images/campbell-3ZUsNJhi_Ik-unsplash.jpg" style="width:100%;">
+          <div class="image-content"><img class="gallery" src="mix images/campbell-3ZUsNJhi_Ik-unsplash.jpg"
+              style="width:500px; height: 800px;">
+            <div class="desc">Lamborghini</div>
+          </div>
+        </div>
+
+        <div class="image"><img class="gallery" src="mix images/dan-gold-Q_2p94h8rjI-unsplash.jpg" style="width:100%;">
+          <div class="image-content"><img class="gallery" src="mix images/dan-gold-Q_2p94h8rjI-unsplash.jpg"
+              style="width:500px; height: 800px;">
+            <div class="desc">Lamborghini</div>
+          </div>
+        </div>
+
+        <div class="image"><img class="gallery" src="mix images/dhiva-krishna-X16zXcbxU4U-unsplash.jpg"
+            style="width:100%;">
+          <div class="image-content"><img class="gallery" src="mix images/dhiva-krishna-X16zXcbxU4U-unsplash.jpg"
+              style="width:500px; height: 800px;">
+            <div class="desc">Lamborghini</div>
+          </div>
+        </div>
+
+        <div class="image"><img class="gallery" src="mix images/denys-nevozhai-QD-8l-8_uJg-unsplash.jpg"
+            style="width:100%;">
+          <div class="image-content"><img class="gallery" src="mix images/denys-nevozhai-QD-8l-8_uJg-unsplash.jpg"
+              style="width:500px; height: 800px;">
+            <div class="desc">Lamborghini</div>
+          </div>
+        </div>
+
+        <div class="image"><img class="gallery" src="mix images/dhiva-krishna-YApS6TjKJ9c-unsplash.jpg"
+            style="width:100%;">
+          <div class="image-content"><img class="gallery" src="mix images/dhiva-krishna-YApS6TjKJ9c-unsplash.jpg"
+              style="width:500px; height: 800px;">
+            <div class="desc">Lamborghini</div>
+          </div>
+        </div>
+
+        <div class="image"><img class="gallery" src="mix images/goh-rhy-yan-f_SDCASisgs-unsplash.jpg"
+            style="width:100%;">
+          <div class="image-content"><img class="gallery" src="mix images/goh-rhy-yan-f_SDCASisgs-unsplash.jpg"
+              style="width:500px; height: 800px;">
+            <div class="desc">Lamborghini</div>
+          </div>
+        </div>
+
+        <div class="image"><img class="gallery" src="mix images/ixography-05Q_XPF_YKs-unsplash.jpg" style="width:100%;">
+          <div class="image-content"><img class="gallery" src="mix images/ixography-05Q_XPF_YKs-unsplash.jpg"
+              style="width:500px; height: 800px;">
+            <div class="desc">Lamborghini</div>
+          </div>
+        </div>
+
+        <div class="image"><img class="gallery" src="mix images/damian-ochrymowicz-6IKzGvVcICI-unsplash.jpg"
+            style="width:100%;">
+          <div class="image-content"><img class="gallery" src="mix images/damian-ochrymowicz-6IKzGvVcICI-unsplash.jpg"
+              style="width:500px; height: 800px;">
+            <div class="desc">Lamborghini</div>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="column">
+
+        <div class="image"><img class="gallery" src="mix images/giorgio-trovato-p0OlRAAYXLY-unsplash.jpg"
+            style="width:100%;">
+          <div class="image-content"><img class="gallery" src="mix images/giorgio-trovato-p0OlRAAYXLY-unsplash.jpg"
+              style="width:500px; height: 800px;">
+            <div class="desc">Lamborghini</div>
+          </div>
+        </div>
+
+        <div class="image"><img class="gallery" src="mix images/grahame-jenkins-p7tai9P7H-s-unsplash.jpg"
+            style="width:100%;">
+          <div class="image-content"><img class="gallery" src="mix images/grahame-jenkins-p7tai9P7H-s-unsplash.jpg"
+              style="width:500px; height: 800px;">
+            <div class="desc">Lamborghini</div>
+          </div>
+        </div>
+
+        <div class="image"><img class="gallery" src="mix images/hanson-lu-MOHTDu-68no-unsplash.jpg" style="width:100%;">
+          <div class="image-content"><img class="gallery" src="mix images/hanson-lu-MOHTDu-68no-unsplash.jpg"
+              style="width:500px; height: 800px;">
+            <div class="desc">Lamborghini</div>
+          </div>
+        </div>
+
+        <div class="image"><img class="gallery" src="mix images/hunter-newton-BgZFS8DPg0I-unsplash.jpg"
+            style="width:100%;">
+          <div class="image-content"><img class="gallery" src="mix images/hunter-newton-BgZFS8DPg0I-unsplash.jpg"
+              style="width:500px; height: 800px;">
+            <div class="desc">Lamborghini</div>
+          </div>
+        </div>
+
+        <div class="image"><img class="gallery" src="mix images/jon-koop-khYVyHiNZo0-unsplash.jpg" style="width:100%;">
+          <div class="image-content"><img class="gallery" src="mix images/jon-koop-khYVyHiNZo0-unsplash.jpg"
+              style="width:500px; height: 800px;">
+            <div class="desc">Lamborghini</div>
+          </div>
+        </div>
+
+        <div class="image"><img class="gallery" src="Car images/marcedes/tim-sessinghaus-kkMoUzKffBU-unsplash.jpg"
+            style="width:100%;">
+          <div class="image-content"><img class="gallery"
+              src="Car images/marcedes/tim-sessinghaus-kkMoUzKffBU-unsplash.jpg" style="width:500px; height: 800px;">
+            <div class="desc">Lamborghini</div>
+          </div>
+        </div>
+
+        <div class="image"><img class="gallery" src="mix images/grahame-jenkins-p7tai9P7H-s-unsplash.jpg"
+            style="width:100%;">
+          <div class="image-content"><img class="gallery" src="mix images/grahame-jenkins-p7tai9P7H-s-unsplash.jpg"
+              style="width:500px; height: 800px;">
+            <div class="desc">Lamborghini</div>
+          </div>
+        </div>
+
+        <div class="image"><img class="gallery" src="mix images/koke-mayayo-thevisualkiller-uG8RGApPGWk-unsplash.jpg"
+            style="width:100%;">
+          <div class="image-content"><img class="gallery"
+              src="mix images/koke-mayayo-thevisualkiller-uG8RGApPGWk-unsplash.jpg" style="width:500px; height: 800px;">
+            <div class="desc">Lamborghini</div>
+          </div>
+        </div>
+
+        <div class="image"><img class="gallery" src="mix images/erik-mclean-54WyjJurNN8-unsplash.jpg"
+            style="width:100%;">
+          <div class="image-content"><img class="gallery" src="mix images/erik-mclean-54WyjJurNN8-unsplash.jpg"
+              style="width:500px; height: 800px;">
+            <div class="desc">Lamborghini</div>
+          </div>
+        </div>
+
+        <div class="image"><img class="gallery" src="mix images/serjan-midili-tOOeQv6O71g-unsplash.jpg"
+            style="width:100%;">
+          <div class="image-content"><img class="gallery" src="mix images/serjan-midili-tOOeQv6O71g-unsplash.jpg"
+              style="width:500px; height: 800px;">
+            <div class="desc">Lamborghini</div>
+          </div>
+        </div>
+
+        <div class="image"><img class="gallery" src="mix images/sarim-naqvi-x1FP6K79ZYU-unsplash.jpg"
+            style="width:100%;">
+          <div class="image-content"><img class="gallery" src="mix images/sarim-naqvi-x1FP6K79ZYU-unsplash.jpg"
+              style="width:500px; height: 800px;">
+            <div class="desc">Lamborghini</div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+
+
+
+
+
+    <div>
+      <footer
+        style="background-color: #c0e4d0; text-align: center; font-style: oblique; font-size: larger; padding: 10px;">
+        All
+        rights reserved.</footer>
+    </div>
+
+
+
+    <script>
+      // Get the button
+      let mybutton = document.getElementById("myBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () { scrollFunction() };
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+</body>
+
+</html>
